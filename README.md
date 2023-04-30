@@ -1,3 +1,7 @@
+## Install
+
+- Input 'https://github.com/NuclearBand/NuclearMoreLINQ.git' in 'Add package from git URL'
+
 # MoreLINQ
 
 LINQ to Objects is missing a few desirable features.

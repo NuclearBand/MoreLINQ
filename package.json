@@ -1,0 +1,13 @@
+{
+  "name": "com.nuclearband.morelinq",
+  "displayName": "MoreLINQ",
+  "version": "1.0.0",
+  "description": "Extensions to LINQ to Objects",
+  "keywords": ["moreLINQ", "unity", "nuclear"],
+  "license": "MIT",
+  "author": {
+    "name": "NuclearBand",
+    "url": "https://github.com/NuclearBand"
+  },
+  "repository": "https://github.com/NuclearBand/MoreLINQ.git"
+}

@@ -20,7 +20,6 @@ namespace MoreLinq
     using System;
     using System.Collections;
     using System.Collections.Generic;
-    using System.Diagnostics.CodeAnalysis;
     using System.Linq;
 
     public static partial class MoreEnumerable
@@ -87,7 +86,6 @@ namespace MoreLinq
                 Reset();
             }
 
-            [MemberNotNull(nameof(_generatorIterator))]
             public void Reset()
             {
                 _current = null;

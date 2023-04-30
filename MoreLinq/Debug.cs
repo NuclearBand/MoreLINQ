@@ -19,13 +19,12 @@ namespace MoreLinq
 {
     using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime.CompilerServices;
 
     static class Debug
     {
         [Conditional("DEBUG")]
         public static void Assert([DoesNotReturnIf(false)] bool condition,
-                                  [CallerArgumentExpression(nameof(condition))] string? message = null) =>
+                                  string? message = null) =>
             System.Diagnostics.Debug.Assert(condition, message);
     }
 }
